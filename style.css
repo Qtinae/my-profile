@@ -1,0 +1,131 @@
+/* Colors and fonts */
+body{
+
+	background: #EEE9DA;
+	color: #607d8b;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+
+
+}
+h1, H2, H3 {
+	font-family: 'Roboto', sans-serif;
+} 
+
+
+
+H1{
+	color: #6096B4;
+	font-size: 32px;
+	font-weight: 900;
+	
+}
+
+H2{
+	color: #6096B4;
+	font-size: 32px;
+	font-weight: lighter;
+	font-weight: 300;
+
+		 
+
+	}
+a {
+	text-decoration: none;
+	color: #6096B4;
+
+
+
+}
+a:hover {
+	color: #BDCDD6;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+
+
+}
+
+/*Aspect global*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+/*Aspect chaque div*/
+
+.card-white {
+	background-color: #EEE9DA;
+	padding: 40px;
+	padding-top: 10px;
+	box-shadow: 0px 5px 8px #BDCDD6;
+	border-radius: 18px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+/*Photo*/
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*lien*/
+ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+
+}
+
+/*Rejoins moi*/
+
+.btn-blue {
+	background-color: blue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue: hover {
+	background-color: black;
+	color: white;
+}
+
+/*Taille de l'écran*/
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
